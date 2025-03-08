@@ -155,7 +155,7 @@ const Services = () => {
                 </h4>
                 <div className="rounded-lg overflow-hidden shadow-md">
                   <img
-                    src="/src/assets/loja.jpg"
+                    src="/assets/loja.jpg"
                     alt="Fachada da FarmaSETE"
                     className="w-full h-auto"
                   />
@@ -229,7 +229,7 @@ const Services = () => {
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
             <div className="rounded-lg overflow-hidden mb-4">
               <img
-                src="/src/assets/laboratorio.jpg"
+                src="/assets/laboratorio.jpg"
                 alt="Laboratório da FarmaSETE"
                 className="w-full h-48 object-cover"
               />
@@ -246,7 +246,7 @@ const Services = () => {
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
             <div className="rounded-lg overflow-hidden mb-4">
               <img
-                src="/src/assets/farmaceutico.jpg"
+                src="/assets/farmaceutico.jpg"
                 alt="Equipe farmacêutica da FarmaSETE"
                 className="w-full h-48 object-cover"
               />
@@ -263,7 +263,7 @@ const Services = () => {
           <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow">
             <div className="rounded-lg overflow-hidden mb-4">
               <img
-                src="/src/assets/atendimento.jpg"
+                src="/assets/atendimento.jpg"
                 alt="Atendimento personalizado na FarmaSETE"
                 className="w-full h-48 object-cover"
               />
