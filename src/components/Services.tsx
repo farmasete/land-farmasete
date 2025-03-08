@@ -148,23 +148,6 @@ const Services = () => {
                   </button>
                 ))}
               </nav>
-
-              <div className="mt-10 p-4 bg-farma-100 rounded-lg">
-                <h4 className="font-semibold text-farma-800 mb-2">
-                  Nossa Loja
-                </h4>
-                <div className="rounded-lg overflow-hidden shadow-md">
-                  <img
-                    src="/assets/loja.jpg"
-                    alt="Fachada da FarmaSETE"
-                    className="w-full h-auto"
-                  />
-                </div>
-                <p className="mt-2 text-sm text-farma-700">
-                  Venha nos visitar! Estamos em um local de fácil acesso e com
-                  estacionamento próprio.
-                </p>
-              </div>
             </div>
 
             <div className="md:w-2/3 p-8">
@@ -219,6 +202,42 @@ const Services = () => {
                   Todos os medicamentos manipulados requerem prescrição médica.
                   Nossa equipe está à disposição para orientar sobre o uso
                   correto e esclarecer dúvidas.
+                </p>
+              </div>
+
+              <div className="mt-8 p-4 bg-farma-100 rounded-lg md:hidden">
+                <h4 className="font-semibold text-farma-800 mb-2">
+                  Nossa Loja
+                </h4>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img
+                    src="/assets/loja.jpg"
+                    alt="Fachada da FarmaSETE"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <p className="mt-2 text-sm text-farma-700">
+                  Venha nos visitar! Estamos em um local de fácil acesso e com
+                  estacionamento próprio.
+                </p>
+              </div>
+            </div>
+
+            <div className="hidden md:block md:w-1/3 bg-farma-50 p-6">
+              <div className="mt-10 p-4 bg-farma-100 rounded-lg">
+                <h4 className="font-semibold text-farma-800 mb-2">
+                  Nossa Loja
+                </h4>
+                <div className="rounded-lg overflow-hidden shadow-md">
+                  <img
+                    src="/assets/loja.jpg"
+                    alt="Fachada da FarmaSETE"
+                    className="w-full h-auto"
+                  />
+                </div>
+                <p className="mt-2 text-sm text-farma-700">
+                  Venha nos visitar! Estamos em um local de fácil acesso e com
+                  estacionamento próprio.
                 </p>
               </div>
             </div>
